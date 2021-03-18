@@ -1,21 +1,32 @@
-
+:root {
+    --textcolor: #3C3C3C;
+    --green: #A9C7AA;
+    --buttons: #EFE9DB;
+    --hoverbuttom: #EFDDB5;
+    --greenhover: #93c695;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
-* { font-family: 'Montserrat', sans-serif;}
+* { font-family: 'Montserrat', sans-serif;
+color: #3C3C3C;}
 
 body {background-image: url("background.png"); }
 
 /*Login*/ 
 
-.yellow-card {
+.start-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 550px;
+    width: 65%;
+    border-radius: 25px;
+    min-width: 1000px;
+    background-image: linear-gradient(90deg, #EFDDB5 50%, #A9C7AA 50%);
 
-margin: 5%;
-margin-left: 15%;
-height: 600px;
-width: 500px;
-background-color: #F8F0AE;
-border-radius: 50px 0px  0px 50px;}
+}
 
-.yellow-card h1 {
+.yellow h1 {
     padding: 80px;
     padding-top: 120px;
     padding-bottom: 0px;
@@ -25,23 +36,79 @@ border-radius: 50px 0px  0px 50px;}
     color: #3C3C3C;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-position: under;
- }
+    text-underline-position: under; }
 
-
-.yellow-card p {
-    margin: 30px 80px 80px 80px;
+.yellow p {
+    margin: 40px 580px 30px 80px;
     padding-top: -20px;
     font-weight: normal;
-    font-size: 15px;
-    color: #3C3C3C;
+    font-size: 14px;
+    color: #3C3C3C;}
+
+.opret {
+    margin-left: 80px;
+    margin-top: none;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #A9C7AA;
+    outline: none;
+}
+
+.opret:hover {
+    background-color: #93c695;
+}
+
+
+.green {margin-top: -345px;}
+
+.green h1 {
+    padding-left: 688px;
+    margin-top: -277px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #3C3C3C;}
+
+.form {
+
+    margin-left: 595px;
+    margin-top: 40px;
+}
+
+input[type=name] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 300px;
 
 }
 
-.green-card {
-margin: -47.7%;
-margin-left: 50%;
-height: 600px;
-width: 500px;
-background-color: #A4C489;
-border-radius: 0px 50px  50px 0px;}
+
+input[type=password] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    width: 300px;
+    color: var(--textcolor);
+
+}
+
+.login-knap {
+    background-color: #EFE9DB;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.login-knap:hover {
+    background-color: #EFDDB5;
+}
+
+ input:focus, textarea:focus, select:focus{
+    outline: none;
+}
