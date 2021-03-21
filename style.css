@@ -119,6 +119,19 @@ margin-top: -20px;
     margin-right: 250px;
 }
 
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin-left: 55px;
+  }
+  
+
+  
+
+
+
 
 /* footer */
 
