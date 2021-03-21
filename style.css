@@ -101,9 +101,11 @@ body {background-image: url("background.png"); }
     border-radius: 20px;
 }
 
-.btn-group{
+
+
+.btn-group a{
     
-    color: white;
+    color: #3C3C3C;
     padding: 30px 32px;
     text-align: center;
     text-decoration: none;
@@ -111,7 +113,11 @@ body {background-image: url("background.png"); }
     cursor: pointer;
      width: 150px;
      display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
+
+
 
 
 /* test */
