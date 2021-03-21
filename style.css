@@ -47,7 +47,6 @@ body {background-image: url("background.png"); }
 
 .opret {
     margin-left: 80px;
-    margin-top: none;
     border-radius: 10px;
     padding: 8px;
     border: none;
@@ -60,7 +59,7 @@ body {background-image: url("background.png"); }
 }
 
 
-.green {margin-top: -345px;}
+.green {margin-top: -346px;}
 
 .green h1 {
     padding-left: 688px;
@@ -112,3 +111,70 @@ input[type=password] {
  input:focus, textarea:focus, select:focus{
     outline: none;
 }
+
+/*Shop*/
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--green);
+    overflow-x: hidden;
+  }
+
+.sidenav h1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    border-bottom: 1px solid var(--textcolor);
+    width: 82%;
+    border-color: var(--textcolor);
+}
+  .link a {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--textcolor);
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--buttons);
+    border-radius: 25px;
+    padding: 8px;
+    background-color: var(--buttons);
+
+
+}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: #A9C7AA;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+
+  .grid-item {
+
+    margin-bottom: -20px;
+
+
+  }
+
+  .grid-item1 {
+
+    padding: 11px;
+    margin-top: -5px;
+  }
+
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
