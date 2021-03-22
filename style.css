@@ -13,7 +13,7 @@
 }
 
 body {background-image: url("background.png"); }
-
+e
 /* forside */
 
 .banner {
@@ -499,6 +499,7 @@ input[type=password] {
    }
 
   .grid-item2 {
+      background-color: var(--buttons);
       border: 1px solid var(--textcolor);
       border-radius: 25px;
       padding-top: 50px;
@@ -523,13 +524,19 @@ input[type=password] {
         font-weight: 350; 
     }
 
+    .yellow1 h6 {
+        font-size: 18px;
+        font-weight: 350;
+        margin-left: 315px;
+    }
+
     .kotelet {
         padding-left:50px;
         padding-top: 50px;
     }
 
    .green1 h3 {
-       margin-top: -380px;
+       margin-top: -410px;
        margin-left: 550px;
        font-weight: 400;
        font-size: 18px;
@@ -596,8 +603,8 @@ input[type=password] {
         float: right;
         padding: 5px;
         margin-left: 10px;
-        background-color: var(--buttons);
-        border: var(--buttons);
+        background-color: var(--hoverbuttom);
+        border: var(--hoverbuttom);
         outline: none;
     }
     .cntact1:hover {
@@ -616,7 +623,7 @@ input[type=password] {
      .green1 h4 {
 
         margin-left: 550px;
-        margin-top: 100px;
+        margin-top: 80px;
         font-size: 18px;
         font-weight: 400;
         text-decoration: underline;
@@ -627,7 +634,7 @@ input[type=password] {
     .green1 h5 {
 
         margin-left: 550px;
-        margin-top: 65px;
+        margin-top: 70px;
         font-size: 18px;
         font-weight: 400;
         text-decoration: underline;
@@ -666,3 +673,52 @@ input[type=password] {
     .bestil a { 
         text-decoration: none;
     }
+
+    .shop-foot {
+        margin-left: 280px;
+        margin-right: 50px;
+
+    }
+
+   
+
+  
+    .laeg-kurv {
+        
+        margin-top: 50px;
+        margin-left: 550px;
+        margin-right: 230px;
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 7px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+    }
+
+    .laeg-kurv:hover { 
+
+        background-color: var(--greenhover);
+    
+    }
+
+
+    .tilbage {
+        background-color: var(--hoverbuttom);
+        border-radius: 10px;
+        padding: 7px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .tilbage:hover { 
+
+        background-color: var(--hoverbuttom); }
+
+    .tilbage2 a {
+        text-decoration: none;
+    }
+
