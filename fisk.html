@@ -97,6 +97,19 @@
       </div>
     </div>
 
+    <img class="open-chat" src="chaticon.png" alt="chat" onclick="openForm()">
+ 
+<div class="chat-popup" id="myForm">
+ <form action="/action_page.php" class="form-container">
+ 
+   <label for="msg"><b>Brug for hjælp?</b></label>
+   <textarea placeholder="Send besked..." name="msg" required></textarea>
+ 
+   <button type="submit" class="btnn" onclick="closeForm()" >Send</button>
+   <button type="button" class="btnn cancel" onclick="closeForm()">Luk</button>
+ </form>
+</div>
+
     <footer>
       <br> <p class="shop-foot"> <strong> Kontakt:</strong> <br> Email: <br> kontakt@raahandel.dk <br> Tlf: 92 45 01 05 <br> Adr: Frederiksborgvej 59, <br> 2400 København NV <br> CVR:37405906</p>
   
@@ -108,6 +121,17 @@
       <img class="insta-logo" src="instagram.png" alt="instagram" width="3.8%">
       <img class="fb-logo" src="facebook.png" alt="facebook" width="5.1%">
   </footer>
+
+  <script>
+    function openForm() {
+     document.getElementById("myForm").style.display = "block";
+    }
+     
+    function closeForm() {
+     document.getElementById("myForm").style.display = "none";
+    }
+
+    </script>
 
 
     
