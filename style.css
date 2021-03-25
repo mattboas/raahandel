@@ -743,20 +743,26 @@ input[type=password] {
     .laeg-kurv {
         
         margin-top: 50px;
-        margin-left: 550px;
+        margin-left: 548px;
         margin-right: 230px;
-        background-color: var(--green);
+        background-color: var(--buttons);
         border-radius: 10px;
         padding: 7px;
+        padding-right: 20px;
+        padding-left: 20px;
         border: none;
         outline: none;
         cursor: pointer;
 
     }
 
+    .laeg-kurv a {
+        color: var(--textcolor);
+    }
+
     .laeg-kurv:hover { 
 
-        background-color: var(--greenhover);
+        background-color: var(--hoverbuttom);
     
     }
 
@@ -769,13 +775,141 @@ input[type=password] {
         outline: none;
         cursor: pointer;
         text-decoration: none;
+
     }
 
     .tilbage:hover { 
 
         background-color: var(--hoverbuttom); }
 
+
+
     .tilbage2 a {
         text-decoration: none;
     }
+
+    /* Kurv-side */ 
+
+    .kurv-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 550px;
+    width: 65%;
+    border-radius: 25px;
+    min-width: 1000px;
+    background-color: var(--green);
+    }
+
+    .kurv-card h1 {
+        font-size: 45px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .koteleten {
+        border: 1px solid var(--buttons);
+        width: 40%;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-left: 100px;
+        margin-top: 40px;
+        background-color: var(--buttons);
+        border-radius: 15px;
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .pork-img {
+        margin-left: 105px;
+        position: absolute;
+        margin-top: 5px;
+        
+    }
+
+    .egg {
+        border: 1px solid var(--buttons);
+        width: 40%;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-left: 100px;
+        margin-top: -50px;
+        background-color: var(--buttons);
+        border-radius: 15px;
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .egg-img {
+        margin-left: 105px;
+        position: inherit;
+        margin-top: 20px;
+        
+    }
+
+    .total {
+        border: 1px solid var(--buttons);
+        width: 40%;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-right: 51.7px;
+        margin-left: 100px;
+        margin-top: 140px;
+        background-color: var(--buttons);
+        border-radius: 15px;
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .info { 
+        margin-left: 630px;
+        margin-top: -306.5px;
+        line-height: 25px;
+        text-decoration: underline;
+        text-underline-position: under;
+        width: 100%;
+        color: #3c3c3c61;
+    }
+
+    .kurv-knap {
+        float: right;
+        margin-right: 76px;
+        margin-top: 40px;
+    }
+
+    .tilbage-kurv {
+        background-color: var(--buttons);
+        border-radius: 10px;
+        margin-right: 105px;
+        padding: 7px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+    }
+
+    .tilbage-kurv a {
+        text-decoration: none;
+        color: var(--textcolor);
+    }
+
+    .bestil-kurv {
+        background-color: var(--hoverbuttom);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 7px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
 
