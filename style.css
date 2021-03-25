@@ -249,7 +249,7 @@ footer p{
   .form-container {
     max-width: 300px;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #F2F2E8;
     border-radius: 20px;
   }
   
@@ -470,9 +470,8 @@ input[type=password] {
     font-size: 30px;
     font-weight: 400;
     margin-left: 20px;
-    margin-top: 25px;
     border-bottom: 1px solid var(--textcolor);
-    width: 89%;
+    width: 82%;
     border-color: var(--textcolor);
 }
   .link a {
@@ -519,7 +518,6 @@ input[type=password] {
 
   .shop h1 {
       margin-left: 475px;
-      margin-top: 25px;
   }
 
   .grid-container2 {
@@ -558,7 +556,7 @@ input[type=password] {
    }
 
   .grid-item2 {
-      background-color: #EFE9DB;
+      background-color: var(--buttons);
       border: 1px solid var(--textcolor);
       border-radius: 25px;
       padding-top: 50px;
@@ -781,92 +779,3 @@ input[type=password] {
         text-decoration: none;
     }
 
-    /* Kurv-side */ 
-
-    .kurv-card {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    height: 550px;
-    width: 65%;
-    border-radius: 25px;
-    min-width: 1000px;
-    background-color: var(--green);
-    }
-
-    .kurv-card h1 {
-        font-size: 45px;
-        font-weight: 400;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    .koteleten {
-        border: 1px solid var(--buttons);
-        width: 40%;
-        padding-left: 60px;
-        padding-top: 10px;
-        padding-bottom: 15px;
-        margin-left: 100px;
-        margin-top: 40px;
-        background-color: var(--buttons);
-        border-radius: 15px;
-        text-decoration: underline;
-        text-underline-position: under;
-    }
-
-    .pork-img {
-        margin-left: 105px;
-        position: absolute;
-        margin-top: 5px;
-        
-    }
-
-    .egg {
-        border: 1px solid var(--buttons);
-        width: 40%;
-        padding-left: 60px;
-        padding-top: 10px;
-        padding-bottom: 15px;
-        margin-left: 100px;
-        margin-top: -50px;
-        background-color: var(--buttons);
-        border-radius: 15px;
-        text-decoration: underline;
-        text-underline-position: under;
-    }
-
-    .egg-img {
-        margin-left: 105px;
-        position: inherit;
-        margin-top: 20px;
-        
-    }
-
-    .total {
-        border: 1px solid var(--buttons);
-        width: 40%;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 15px;
-        padding-right: 51.7px;
-        margin-left: 100px;
-        margin-top: 140px;
-        background-color: var(--buttons);
-        border-radius: 15px;
-        text-decoration: underline;
-        text-underline-position: under;
-    }
-
-    .info { 
-        margin-left: 620px;
-        margin-top: -306.5px;
-        line-height: 25px;
-        text-decoration: underline;
-        text-underline-position: under;
-        width: 100%;
-        color: #3c3c3c61;
-    }
-
-  
