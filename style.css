@@ -71,7 +71,7 @@ body {background-image: url("background.png"); }
 
 .btn1{
     float: right;
-    padding: 15px 58.5px;
+    padding: 15px 61.7px;
     margin-top: -150px;
 }
 
@@ -224,15 +224,73 @@ footer p{
 
 /* chat */
 
-.chat-icon {
-    position: fixed;
-    right: 30px;
-    bottom: 0;
-    font-size: 80px;
-    color: #3C3C3C;
+.open-chat {
+    width: 10%;
+    border: none;
     cursor: pointer;
-    z-index: 1000;
-}
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    border-radius: 20px;
+  }
+  
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    border: none;
+    z-index: 9;
+    border-radius: 20px;
+  }
+
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #F2F2E8;
+    border-radius: 20px;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px 0px 5px 3px;
+    margin-top: 10px;
+    border: none;
+    background: #f5f5f5;
+    resize: none;
+    min-height: 200px;
+    border-radius: 20px;
+    
+  }
+  
+  .form-container textarea:focus {
+    background-color: #f9f9f9;
+    outline: none;
+  }
+  
+  .form-container .btnn {
+    background-color: #93c695;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 20px;
+  }
+  
+  .form-container .cancel {
+    background-color: #3C3C3C;
+    border-radius: 20px;
+  }
+  
+  .form-container .btnn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
 
 /* kontrol */
 
@@ -412,9 +470,8 @@ input[type=password] {
     font-size: 30px;
     font-weight: 400;
     margin-left: 20px;
-    margin-top: 25px;
     border-bottom: 1px solid var(--textcolor);
-    width: 89%;
+    width: 82%;
     border-color: var(--textcolor);
 }
   .link a {
@@ -461,7 +518,6 @@ input[type=password] {
 
   .shop h1 {
       margin-left: 475px;
-      margin-top: 25px;
   }
 
   .grid-container2 {
@@ -500,7 +556,7 @@ input[type=password] {
    }
 
   .grid-item2 {
-      background-color: #EFE9DB;
+      background-color: var(--buttons);
       border: 1px solid var(--textcolor);
       border-radius: 25px;
       padding-top: 50px;
@@ -856,4 +912,4 @@ input[type=password] {
 
     }
 
-  
+
